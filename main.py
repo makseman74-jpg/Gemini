@@ -5,7 +5,7 @@ import telebot
 from google import genai
 
 TELEGRAM_TOKEN = "9237007544:AAET9a2UfcAp5SvnGYmIwB_EJ9iC2XbAFYQ"
-GEMINI_API_KEY = "AQ.Ab8RN6I4uZVJ3vIbzAaTzhWa2m685EGEVGuR_GQOeyNI5Stttg"
+GEMINI_API_KEY = "AQ.Ab8RN6ItTybI1GS03C1hNdTmFZSVK06842Qz-jeENUB5_WswVQ"
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 client = genai.Client(api_key=GEMINI_API_KEY)
