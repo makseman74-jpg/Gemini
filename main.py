@@ -4,7 +4,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import telebot
 from google import genai
 
-TELEGRAM_TOKEN = "9237007544:AAEf_hLG0ofiasRKFqIHWt49ab-NOmh1a4k"
+TELEGRAM_TOKEN = "9237007544:AAET9a2UfcAp5SvnGYmIwB_EJ9iC2XbAFYQ"
 GEMINI_API_KEY = "AQ.Ab8RN6I4uZVJ3vIbzAaTzhWa2m685EGEVGuR_GQOeyNI5Stttg"
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
